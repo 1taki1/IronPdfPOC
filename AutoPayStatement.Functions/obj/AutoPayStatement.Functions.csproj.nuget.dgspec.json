@@ -1,0 +1,205 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/roberttakacs/Downloads/IronPdfPoc/AutoPayStatement.Functions/AutoPayStatement.Functions.csproj": {}
+  },
+  "projects": {
+    "/Users/roberttakacs/Downloads/IronPdfPoc/AutoPayStatement.Core/AutoPayStatement.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/roberttakacs/Downloads/IronPdfPoc/AutoPayStatement.Core/AutoPayStatement.Core.csproj",
+        "projectName": "AutoPayStatement.Core",
+        "projectPath": "/Users/roberttakacs/Downloads/IronPdfPoc/AutoPayStatement.Core/AutoPayStatement.Core.csproj",
+        "packagesPath": "/Users/roberttakacs/.nuget/packages/",
+        "outputPath": "/Users/roberttakacs/Downloads/IronPdfPoc/AutoPayStatement.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/roberttakacs/Downloads/IronPdfPoc/NuGet.Config",
+          "/Users/roberttakacs/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/TfL-TechDev/_packaging/DetroitPackages/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.11.2, )"
+            },
+            "IronPdf": {
+              "target": "Package",
+              "version": "[2024.5.2, )"
+            },
+            "JetBrains.Annotations": {
+              "target": "Package",
+              "version": "[2023.3.0, )"
+            },
+            "LanguageExt.Core": {
+              "target": "Package",
+              "version": "[4.4.8, )"
+            },
+            "Microsoft.Azure.Functions.Extensions": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.Azure.Functions.Worker": {
+              "target": "Package",
+              "version": "[1.21.0, )"
+            },
+            "Microsoft.Azure.Functions.Worker.Extensions.DurableTask": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.Extensions.Azure": {
+              "target": "Package",
+              "version": "[1.7.3, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/roberttakacs/Downloads/IronPdfPoc/AutoPayStatement.Functions/AutoPayStatement.Functions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/roberttakacs/Downloads/IronPdfPoc/AutoPayStatement.Functions/AutoPayStatement.Functions.csproj",
+        "projectName": "AutoPayStatement.Functions",
+        "projectPath": "/Users/roberttakacs/Downloads/IronPdfPoc/AutoPayStatement.Functions/AutoPayStatement.Functions.csproj",
+        "packagesPath": "/Users/roberttakacs/.nuget/packages/",
+        "outputPath": "/Users/roberttakacs/Downloads/IronPdfPoc/AutoPayStatement.Functions/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/roberttakacs/Downloads/IronPdfPoc/NuGet.Config",
+          "/Users/roberttakacs/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/TfL-TechDev/_packaging/DetroitPackages/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/roberttakacs/Downloads/IronPdfPoc/AutoPayStatement.Core/AutoPayStatement.Core.csproj": {
+                "projectPath": "/Users/roberttakacs/Downloads/IronPdfPoc/AutoPayStatement.Core/AutoPayStatement.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.ApplicationInsights.WorkerService": {
+              "target": "Package",
+              "version": "[2.21.0, )"
+            },
+            "Microsoft.Azure.Functions.Extensions": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.Azure.Functions.Worker": {
+              "target": "Package",
+              "version": "[1.21.0, )"
+            },
+            "Microsoft.Azure.Functions.Worker.ApplicationInsights": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.Azure.Functions.Worker.Extensions.DurableTask": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.Azure.Functions.Worker.Extensions.Http": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.Azure.Functions.Worker.Extensions.Http.AspNetCore": {
+              "target": "Package",
+              "version": "[1.2.1, )"
+            },
+            "Microsoft.Azure.Functions.Worker.Extensions.ServiceBus": {
+              "target": "Package",
+              "version": "[5.15.0, )"
+            },
+            "Microsoft.Azure.Functions.Worker.Extensions.Storage.Queues": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "Microsoft.Azure.Functions.Worker.Sdk": {
+              "target": "Package",
+              "version": "[1.16.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
